@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh "docker stop ${DOCKER_IMAGE_NAME} || true"
                 sh "docker rm ${DOCKER_IMAGE_NAME} || true"
-                sh "docker run -d --name ${DOCKER_IMAGE_NAME} -p 8080:3000 ${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}"
+                sh "docker run -d --name ${DOCKER_IMAGE_NAME} -p 8081:3000 ${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}"
             }
         }
     }
