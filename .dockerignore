@@ -1,9 +1,0 @@
-# Ignore the git version control folder
-.git
-
-# Ignore local Node.js dependencies, as they will be installed inside the container
-node_modules
-
-# Ignore log files
-*.log
-npm-debug.log
