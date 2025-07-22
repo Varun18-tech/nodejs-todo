@@ -1,17 +1,17 @@
 {
-  "name": "nodejs-todo",
+  "name": "todo-app",
   "version": "1.0.0",
-  "description": "A simple to do list app ",
+  "description": "A simple ToDo List application built with Node.js and Express",
   "main": "index.js",
- "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node index.js"
-}
-  "author": "Vanessa Ating",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Jp",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.0",
-    "ejs": "^2.5.7",
-    "express": "^4.15.4"
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
   }
 }
